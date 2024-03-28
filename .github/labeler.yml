@@ -6,7 +6,7 @@
 - head-branch: ['feat', 'ˆfeat']
 
 'Type: Fix':
-- head-branch: ['fix']
+- head-branch: ['fix', 'ˆfix']
 
 'Type: CI':
-- head-branch: ['ci']
+- head-branch: ['ci', '^ci']
