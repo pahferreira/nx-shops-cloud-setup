@@ -1,21 +1,21 @@
-Status: Review:
+'Status: Review':
 - changed-files:
   - any-glob-to-any-file: '*'
 
-Status: Changes:
+'Status: Changes':
 - pull_request_review:
     review: CHANGES_REQUESTED
 
-Status: Done:
+'Status: Done':
 - pull_request_review:
     review: APPROVED
     code-owners: true
 
-Type: Feat:
+'Type: Feat':
   - head-branch: ['feat']
 
-Type: Fix:
+'Type: Fix':
   - head-branch: ['fix']
 
-Type: CI:
+'Type: CI':
   - head-branch: ['ci']
