@@ -2,20 +2,11 @@
 - changed-files:
   - any-glob-to-any-file: '*'
 
-'Status: Changes':
-- pull_request_review:
-    review: CHANGES_REQUESTED
-
-'Status: Done':
-- pull_request_review:
-    review: APPROVED
-    code-owners: true
-
 'Type: Feat':
-  - head-branch: ['feat']
+- head-branch: ['feat']
 
 'Type: Fix':
-  - head-branch: ['fix']
+- head-branch: ['fix']
 
 'Type: CI':
-  - head-branch: ['ci']
+- head-branch: ['ci']
